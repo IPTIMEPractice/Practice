@@ -1,35 +1,31 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const LBtnBasic = styled.button`
+const MsBtnBasic = styled.button`
   background-color: #7149c6;
   border: none;
   border-radius: 4.4rem;
-  height: 4.4rem;
-  min-width: 32.2rem;
+  height: 3.2rem;
+  min-width: 9rem;
   width: min(122.4rem, 100% - 6rem);
   color: white;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 `
-
-const LBtnDisabled = styled.button`
+const MsBtnDisabled = styled.button`
   background-color: #ada2ff;
-
   border: none;
   border-radius: 4.4rem;
-  height: 4.4rem;
-
-  min-width: 32.2rem;
+  height: 3.2rem;
+  min-width: 9rem;
   width: min(122.4rem, 100% - 6rem);
   color: white;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 `
-
-export default function StyleLBtn() {
+export default function StyleMsBtn() {
   return (
     <div>
-      <LBtnBasic>다음</LBtnBasic>
-      <LBtnDisabled>다음</LBtnDisabled>
+      <MsBtnBasic>저장</MsBtnBasic>
+      <MsBtnDisabled>저장</MsBtnDisabled>
     </div>
   )
 }
