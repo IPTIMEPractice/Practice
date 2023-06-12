@@ -5,7 +5,6 @@ import arrowLeft from '../../../assets/img/icon-arrow-left.svg'
 const TopDiv = styled.div`
   width: 39rem;
   height: 4.8rem;
-  border: 1px solid;
   display: flex;
   box-sizing: border-box;
   padding: 0 1.6rem;
@@ -30,19 +29,12 @@ const SearchInp = styled.input`
   padding-left: 1.6rem;
 
   &::placeholder {
-    font-size: 14px;
-    line-height: 18px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: flex-end;
-
-    /* C4C4C4 */
-
+    font-size: 1.4rem;
+    line-height: 1.8rem;
     color: #c4c4c4;
   }
 `
-export default function TopBasicNav() {
+export default function TopSearchNav() {
   return (
     <TopDiv>
       <ArrowLeftBtn />
