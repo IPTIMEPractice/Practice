@@ -8,6 +8,7 @@ const SBtnBasic = styled.button`
   width: 5.6rem;
   color: white;
   font-size: 1.2rem;
+  cursor: pointer;
 `
 const SBtnActive = styled.button`
   background-color: white;
@@ -17,6 +18,7 @@ const SBtnActive = styled.button`
   width: 5.6rem;
   color: #767676;
   font-size: 1.2rem;
+  cursor: pointer;
 `
 export default function StyleSBtn() {
   return (

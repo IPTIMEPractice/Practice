@@ -8,6 +8,7 @@ const MsBtnBasic = styled.button`
   width: 9rem;
   color: white;
   font-size: 1.4rem;
+  cursor: pointer;
 `
 const MsBtnDisabled = styled.button`
   background-color: #ada2ff;
@@ -16,6 +17,7 @@ const MsBtnDisabled = styled.button`
   width: 9rem;
   color: white;
   font-size: 1.4rem;
+  cursor: pointer;
 `
 export default function StyleMsBtn() {
   return (

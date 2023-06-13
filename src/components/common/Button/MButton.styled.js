@@ -8,6 +8,7 @@ const MBtnBasic = styled.button`
   width: 12rem;
   color: white;
   font-size: 1.4rem;
+  cursor: pointer;
 `
 
 const MBtnDisabled = styled.button`
@@ -17,6 +18,7 @@ const MBtnDisabled = styled.button`
   width: 12rem;
   color: white;
   font-size: 1.4rem;
+  cursor: pointer;
 `
 
 const MBtnActive = styled.button`
@@ -27,6 +29,7 @@ const MBtnActive = styled.button`
   width: 12rem;
   color: #767676;
   font-size: 1.4rem;
+  cursor: pointer;
 `
 
 export default function StyleMBtn() {

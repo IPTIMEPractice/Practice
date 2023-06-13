@@ -9,6 +9,7 @@ const LBtnBasic = styled.button`
   width: 100%;
   color: white;
   font-size: 1.4rem;
+  cursor: pointer;
 `
 
 const LBtnDisabled = styled.button`
@@ -19,6 +20,7 @@ const LBtnDisabled = styled.button`
   width: 100%;
   color: white;
   font-size: 1.4rem;
+  cursor: pointer;
 `
 
 export default function StyleLBtn() {
