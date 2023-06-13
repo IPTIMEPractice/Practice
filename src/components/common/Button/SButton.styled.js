@@ -3,13 +3,22 @@ import styled from 'styled-components'
 
 const SBtnBasic = styled.button`
   background-color: #7149c6;
-  border: none;
-  border-radius: 4.4rem;
+  border-radius: 2.6rem;
   height: 2.8rem;
-  min-width: 5.6rem;
-  width: min(122.4rem, 100% - 6rem);
+  width: 5.6rem;
   color: white;
   font-size: 1.2rem;
+  cursor: pointer;
+`
+const SBtnActive = styled.button`
+  background-color: white;
+  border: 0.1rem solid #dbdbdb;
+  border-radius: 2.6rem;
+  height: 2.8rem;
+  width: 5.6rem;
+  color: #767676;
+  font-size: 1.2rem;
+  cursor: pointer;
 `
 const SBtnActive = styled.button`
   background-color: white;

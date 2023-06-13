@@ -3,27 +3,27 @@ import styled from 'styled-components';
 
 const LBtnBasic = styled.button`
   background-color: #7149c6;
-  border: none;
+
   border-radius: 4.4rem;
   height: 4.4rem;
   min-width: 32.2rem;
-  width: min(122.4rem, 100% - 6rem);
+  width: 100%;
   color: white;
   font-size: 1.6rem;
-`;
+  cursor: pointer;
+`
+
 
 const LBtnDisabled = styled.button`
   background-color: #ada2ff;
-
-  border: none;
   border-radius: 4.4rem;
   height: 4.4rem;
-
   min-width: 32.2rem;
-  width: min(122.4rem, 100% - 6rem);
+  width: 100%;
   color: white;
   font-size: 1.6rem;
-`;
+  cursor: pointer;
+`
 
 export default function StyleLBtn() {
   return (
