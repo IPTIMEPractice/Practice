@@ -3,31 +3,28 @@ import styled from 'styled-components'
 
 const MBtnBasic = styled.button`
   background-color: #7149c6;
-  border-radius: 4.4rem;
+  border-radius: 3rem;
   height: 3.4rem;
-  min-width: 12rem;
-  width: min(122.4rem, 100% - 6rem);
+  width: 12rem;
   color: white;
   font-size: 1.4rem;
 `
 
 const MBtnDisabled = styled.button`
   background-color: #ada2ff;
-  border-radius: 4.4rem;
+  border-radius: 3rem;
   height: 3.4rem;
-  min-width: 12rem;
-  width: min(122.4rem, 100% - 6rem);
+  width: 12rem;
   color: white;
   font-size: 1.4rem;
 `
 
 const MBtnActive = styled.button`
   background-color: #ffffff;
-  border: 0.01rem solid #767676;
-  border-radius: 4.4rem;
+  border: 0.1rem solid #dbdbdb;
+  border-radius: 3rem;
   height: 3.4rem;
-  min-width: 12rem;
-  width: min(122.4rem, 100% - 6rem);
+  width: 12rem;
   color: #767676;
   font-size: 1.4rem;
 `

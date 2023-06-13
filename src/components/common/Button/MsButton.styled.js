@@ -3,19 +3,17 @@ import styled from 'styled-components'
 
 const MsBtnBasic = styled.button`
   background-color: #7149c6;
-  border-radius: 4.4rem;
+  border-radius: 3.2rem;
   height: 3.2rem;
-  min-width: 9rem;
-  width: min(122.4rem, 100% - 6rem);
+  width: 9rem;
   color: white;
   font-size: 1.4rem;
 `
 const MsBtnDisabled = styled.button`
   background-color: #ada2ff;
-  border-radius: 4.4rem;
+  border-radius: 3.2rem;
   height: 3.2rem;
-  min-width: 9rem;
-  width: min(122.4rem, 100% - 6rem);
+  width: 9rem;
   color: white;
   font-size: 1.4rem;
 `

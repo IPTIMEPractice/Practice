@@ -6,7 +6,7 @@ const LBtnBasic = styled.button`
   border-radius: 4.4rem;
   height: 4.4rem;
   min-width: 32.2rem;
-  width: min(122.4rem, 100% - 6rem);
+  width: 100%;
   color: white;
   font-size: 1.4rem;
 `
@@ -16,7 +16,7 @@ const LBtnDisabled = styled.button`
   border-radius: 4.4rem;
   height: 4.4rem;
   min-width: 32.2rem;
-  width: min(122.4rem, 100% - 6rem);
+  width: 100%;
   color: white;
   font-size: 1.4rem;
 `
