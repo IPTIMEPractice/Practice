@@ -20,6 +20,16 @@ const SBtnActive = styled.button`
   font-size: 1.2rem;
   cursor: pointer;
 `
+const SBtnActive = styled.button`
+  background-color: white;
+  border: 0.01rem solid #767676;
+  border-radius: 4.4rem;
+  height: 2.8rem;
+  min-width: 5.6rem;
+  width: min(122.4rem, 100% - 6rem);
+  color: #767676;
+  font-size: 1.2rem;
+`
 export default function StyleSBtn() {
   return (
     <div>

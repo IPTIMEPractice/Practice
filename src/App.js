@@ -6,12 +6,6 @@ import SButton from './components/common/Button/SButton.jsx'
 
 function App() {
   return (
-    <div>
-      <LButton />
-      <MButton />
-      <MsButton />
-      <SButton />
-    </div>
+    <div></div>
   )
-}
 export default App

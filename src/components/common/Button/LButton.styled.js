@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 const LBtnBasic = styled.button`
   background-color: #7149c6;
+
   border-radius: 4.4rem;
   height: 4.4rem;
   min-width: 32.2rem;
