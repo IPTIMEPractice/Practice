@@ -1,5 +1,5 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 const LBtnBasic = styled.button`
   background-color: #7149c6;
@@ -10,7 +10,7 @@ const LBtnBasic = styled.button`
   width: min(122.4rem, 100% - 6rem);
   color: white;
   font-size: 1.6rem;
-`
+`;
 
 const LBtnDisabled = styled.button`
   background-color: #ada2ff;
@@ -23,7 +23,7 @@ const LBtnDisabled = styled.button`
   width: min(122.4rem, 100% - 6rem);
   color: white;
   font-size: 1.6rem;
-`
+`;
 
 export default function StyleLBtn() {
   return (
@@ -31,5 +31,5 @@ export default function StyleLBtn() {
       <LBtnBasic>다음</LBtnBasic>
       <LBtnDisabled>다음</LBtnDisabled>
     </div>
-  )
+  );
 }
