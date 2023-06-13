@@ -1,12 +1,17 @@
 import React from 'react'
+import MButton from './components/common/Button/MButton.jsx'
+import LButton from './components/common/Button/LButton.jsx'
+import MsButton from './components/common/Button/MsButton.jsx'
+import SButton from './components/common/Button/SButton.jsx'
 
 function App() {
-    return (
-        <div>
-            <p>아이피타임 깃플로우 연습</p>
-            <p>연습마니 살기리다</p>
-            <p>연습벌레</p>
-        </div>
-    )
+  return (
+    <div>
+      <LButton />
+      <MButton />
+      <MsButton />
+      <SButton />
+    </div>
+  )
 }
 export default App
