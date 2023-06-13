@@ -12,7 +12,7 @@ const CommentDiv = styled.div`
   gap: 18px;
 `;
 
-const Commentinp = styled.input`
+const CommentInp = styled.input`
   flex-grow: 1;
 
   &::placeholder{
@@ -25,4 +25,4 @@ const CommentBtn = styled.button`
   cursor: pointer;
 `;
 
-export { CommentDiv, Commentinp, CommentBtn };
+export { CommentDiv, CommentInp, CommentBtn };
