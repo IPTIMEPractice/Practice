@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 const MsBtnBasic = styled.button`
   background-color: #7149c6;
-  border: none;
   border-radius: 4.4rem;
   height: 3.2rem;
   min-width: 9rem;
@@ -13,7 +12,6 @@ const MsBtnBasic = styled.button`
 `
 const MsBtnDisabled = styled.button`
   background-color: #ada2ff;
-  border: none;
   border-radius: 4.4rem;
   height: 3.2rem;
   min-width: 9rem;

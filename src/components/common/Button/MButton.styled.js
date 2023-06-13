@@ -3,10 +3,8 @@ import styled from 'styled-components'
 
 const MBtnBasic = styled.button`
   background-color: #7149c6;
-  border: none;
   border-radius: 4.4rem;
   height: 3.4rem;
-
   min-width: 12rem;
   width: min(122.4rem, 100% - 6rem);
   color: white;
@@ -15,11 +13,8 @@ const MBtnBasic = styled.button`
 
 const MBtnDisabled = styled.button`
   background-color: #ada2ff;
-
-  border: none;
   border-radius: 4.4rem;
   height: 3.4rem;
-
   min-width: 12rem;
   width: min(122.4rem, 100% - 6rem);
   color: white;

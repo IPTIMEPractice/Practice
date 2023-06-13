@@ -3,11 +3,10 @@ import styled from 'styled-components'
 
 const SBtnBasic = styled.button`
   background-color: #7149c6;
-  border: none;
   border-radius: 4.4rem;
   height: 2.8rem;
   min-width: 5.6rem;
-  width: min(122.4rem, 100% - 6rem);
+  width: min(122.4rem, calc(100% - 6rem));
   color: white;
   font-size: 1.2rem;
 `
