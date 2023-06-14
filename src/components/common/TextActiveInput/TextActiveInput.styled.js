@@ -1,10 +1,9 @@
-// import React from 'react';
 import { styled } from 'styled-components';
 
 export const InputEmail = styled.div`
   width: 32.2rem;
   height: 4.8rem;
-  border-bottom: #7149c6 0.1rem solid;
+  border-bottom: #dbdbdb 0.1rem solid;
 
   label {
     display: block;
@@ -18,7 +17,7 @@ export const InputEmail = styled.div`
     width: 100%;
   }
   ::placeholder {
-    color: black;
+    color: #d6d6d6;
     font-size: 1.4rem;
   }
 `;
