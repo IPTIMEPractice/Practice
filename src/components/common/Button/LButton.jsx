@@ -8,7 +8,7 @@ function StyleLBtn({ children, width }) {
 function LButton() {
   return (
     <div>
-      <LBtnDisabled>다음</LBtnDisabled>
+      <LBtnDisabled></LBtnDisabled>
     </div>
   );
 }
