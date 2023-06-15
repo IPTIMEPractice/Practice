@@ -1,9 +1,9 @@
 import { styled } from 'styled-components';
 
 export const InputEmail = styled.div`
-  width: 32.2rem;
   height: 4.8rem;
   border-bottom: #dbdbdb 0.1rem solid;
+  margin-bottom: 1.6rem;
 
   label {
     display: block;
